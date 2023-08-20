@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#my_Game_Window {
+    width: 100vw; 
+    height: 100vh; 
+    background-color: lightblue;
+}
+
+#my_Game_View {
+    width: 100vw; 
+    height: 80vh; 
+    background-color: pink;
+    border: 1px solid gray;    
+}
+
+#my_Game_Panel {
+    width: 100vw; 
+    height: 20vh; 
+    background-color: greenyellow;
+    border: 1px solid gray;
+}
