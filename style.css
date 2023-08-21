@@ -13,14 +13,61 @@ body {
 
 #my_Game_View {
     width: 100vw; 
-    height: 80vh; 
-    background-color: pink;
-    border: 1px solid gray;    
+    height: 80vh;
+    background-color: lightgrey;
+    border: 1px solid gray; 
+    display: flex; 
+    gap: 10vw;  
 }
 
-#my_Game_Panel {
+.my_Team_Grid{
+    width: 40vw;
+    height: 70vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#left_Team_Grid{
+    background-color: orangered;
+    margin-left: 5vw;
+}
+
+#right_Team_Grid{
+    background-color: lightblue;
+    margin-right: 5vw;
+}
+
+.my_Grid_Square{
+    /* ids are team/row/column */
+    width: 18vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 33vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: white;
+    border: 1px black;
+}
+
+#my_Game_Panel{
     width: 100vw; 
     height: 20vh; 
     background-color: greenyellow;
     border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.my_Panel_Square{
+    Height: 18vh;
+    Width: 18vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border: 1px black;
+    background-color: white;
 }
